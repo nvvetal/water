@@ -1,0 +1,1003 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: advertica\n"
+"POT-Creation-Date: 2014-11-19 15:53+0530\n"
+"PO-Revision-Date: 2014-11-19 15:54+0530\n"
+"Last-Translator: \n"
+"Language-Team: SketchThemes <info@sketchthemes.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../tag.php:18
+#, php-format
+msgid "Tag Archives : %s"
+msgstr ""
+
+#: ../tag.php:44 ../category.php:42 ../index.php:44 ../author.php:40
+#: ../search.php:39 ../archive.php:63 ../home.php:44
+msgid "&larr;Previous"
+msgstr ""
+
+#: ../tag.php:45 ../category.php:43 ../index.php:45 ../author.php:41
+#: ../search.php:40 ../archive.php:64 ../home.php:45
+msgid "Next&rarr;"
+msgstr ""
+
+#: ../searchform.php:3 ../searchform.php:6
+#: ../SketchBoard/functions/sketch-breadcrumb.php:169
+msgid "Search"
+msgstr ""
+
+#: ../page.php:39 ../single.php:57 ../template-fullwidth.php:34
+msgid "<p><strong>Pages:</strong> "
+msgstr ""
+
+#: ../page.php:39 ../single.php:57 ../template-fullwidth.php:34
+msgid "number"
+msgstr ""
+
+#: ../page.php:51
+msgid "Page Does Not Exist"
+msgstr ""
+
+#: ../category.php:17
+#, php-format
+msgid "Category Archives : %s"
+msgstr ""
+
+#: ../footer.php:43
+msgid "Advertica Theme by"
+msgstr ""
+
+#: ../footer.php:43
+msgid "SketchThemes"
+msgstr ""
+
+#: ../index.php:35 ../home.php:35
+msgid "<div class='sticky-post'>featured</div>"
+msgstr ""
+
+#: ../404.php:16
+msgid "404"
+msgstr ""
+
+#: ../404.php:17
+msgid ""
+"Sorry, but the requested resource was not found on this site. Please try "
+"again or contact the administrator for assistance."
+msgstr ""
+
+#: ../functions.php:97
+msgid "Main Navigation"
+msgstr ""
+
+#: ../functions.php:123
+msgid "Untitled"
+msgstr ""
+
+#: ../comments.php:17
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../comments.php:27
+msgid "No Comment"
+msgstr ""
+
+#: ../comments.php:27
+msgid "One Comment"
+msgstr ""
+
+#: ../comments.php:27
+msgid "% Comments"
+msgstr ""
+
+#: ../comments.php:27
+msgid " so far:"
+msgstr ""
+
+#: ../comments.php:44
+msgid "Comments are closed."
+msgstr ""
+
+#: ../content-none.php:8
+msgid "Nothing Found"
+msgstr ""
+
+#: ../content-none.php:13
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../content-none.php:15
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+
+#: ../content-none.php:18
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../content.php:29 ../single.php:47
+msgid "On"
+msgstr ""
+
+#: ../content.php:29 ../content.php:30 ../content.php:31 ../single.php:47
+#: ../single.php:48 ../single.php:49
+msgid ","
+msgstr ""
+
+#: ../content.php:30 ../single.php:48
+msgid "Posted by "
+msgstr ""
+
+#: ../content.php:31 ../single.php:49
+msgid "In "
+msgstr ""
+
+#: ../content.php:33 ../single.php:51
+msgid "With "
+msgstr ""
+
+#: ../content.php:33 ../single.php:51
+msgid "No Comments "
+msgstr ""
+
+#: ../content.php:33 ../single.php:51
+msgid "1 Comment "
+msgstr ""
+
+#: ../content.php:33 ../single.php:51
+msgid "% Comments "
+msgstr ""
+
+#: ../content.php:39
+msgid "Read More"
+msgstr ""
+
+#: ../author.php:16
+msgid "Author Archives : "
+msgstr ""
+
+#: ../search.php:15
+#, php-format
+msgid "Search Results for : %s"
+msgstr ""
+
+#: ../options.php:45
+msgid "Enable"
+msgstr ""
+
+#: ../options.php:46
+msgid "Disable"
+msgstr ""
+
+#: ../options.php:50
+msgid "Image"
+msgstr ""
+
+#: ../options.php:51
+msgid "Color"
+msgstr ""
+
+#: ../options.php:93
+msgid "General Settings"
+msgstr ""
+
+#: ../options.php:97
+msgid "Choose Theme Color"
+msgstr ""
+
+#: ../options.php:104
+msgid ""
+"Change Logo (full path to logo image size: width * height (156px * 40px) )"
+msgstr ""
+
+#: ../options.php:105
+msgid "This creates a custom logo for your website."
+msgstr ""
+
+#: ../options.php:111
+msgid "Logo ALT Text"
+msgstr ""
+
+#: ../options.php:112
+msgid "Enter logo image alt attribute text."
+msgstr ""
+
+#: ../options.php:118
+msgid "Upload Favicon"
+msgstr ""
+
+#: ../options.php:119
+msgid "This creates a custom favicon for your website."
+msgstr ""
+
+#: ../options.php:126
+msgid "Custom Background"
+msgstr ""
+
+#: ../options.php:127
+msgid "Change the page background."
+msgstr ""
+
+#: ../options.php:134
+msgid "Breadcrumb Settings"
+msgstr ""
+
+#: ../options.php:138
+msgid "Breadcrumb Enable/Disable"
+msgstr ""
+
+#: ../options.php:146
+msgid "Page Title & Breadcrumb Background Type"
+msgstr ""
+
+#: ../options.php:154
+msgid "Choose Page Title & Breadcrumb Background Color"
+msgstr ""
+
+#: ../options.php:155
+msgid "Please choose background color"
+msgstr ""
+
+#: ../options.php:162
+msgid ""
+"Upload Page Title & Breadcrumb Background Image ( width * height (1600px * "
+"180px) )"
+msgstr ""
+
+#: ../options.php:163
+msgid ""
+"This image will show up as background on page title & breadcrumb section."
+msgstr ""
+
+#: ../options.php:170
+msgid "Choose Page Title & Breadcrumb Font Color"
+msgstr ""
+
+#: ../options.php:171
+msgid "Please choose font color"
+msgstr ""
+
+#: ../options.php:177
+msgid "Blog Page Settings"
+msgstr ""
+
+#: ../options.php:182
+msgid "Enter Blog Page Title"
+msgstr ""
+
+#: ../options.php:183
+msgid "Enter blog page title text."
+msgstr ""
+
+#: ../options.php:192
+msgid "Home Featured Section"
+msgstr ""
+
+#: ../options.php:196
+msgid "Home page Image:"
+msgstr ""
+
+#: ../options.php:197
+msgid "Choose image for home page. Size: Width 1600px and Height 500px."
+msgstr ""
+
+#: ../options.php:204
+msgid "First Featured Box Heading"
+msgstr ""
+
+#: ../options.php:205
+msgid "Enter heading for first featured box."
+msgstr ""
+
+#: ../options.php:211
+msgid "First Featured Box Image Path (size: width * height (150px * 150px) )"
+msgstr ""
+
+#: ../options.php:212
+msgid "Upload image for first featured box."
+msgstr ""
+
+#: ../options.php:218
+msgid "First Featured Box Content"
+msgstr ""
+
+#: ../options.php:219
+msgid "Enter content for first featured box."
+msgstr ""
+
+#: ../options.php:225
+msgid "First Featured Box Link"
+msgstr ""
+
+#: ../options.php:226
+msgid "Enter link for first featured box."
+msgstr ""
+
+#: ../options.php:233
+msgid "Second Featured Box Heading"
+msgstr ""
+
+#: ../options.php:234
+msgid "Enter heading for second featured box."
+msgstr ""
+
+#: ../options.php:240
+msgid "Second Featured Box Image Path (size: width * height (150px * 150px) )"
+msgstr ""
+
+#: ../options.php:241
+msgid "Upload image for second featured box."
+msgstr ""
+
+#: ../options.php:247
+msgid "Second Featured Box Content"
+msgstr ""
+
+#: ../options.php:248
+msgid "Enter content for second featured box."
+msgstr ""
+
+#: ../options.php:254
+msgid "Second Featured Box Link"
+msgstr ""
+
+#: ../options.php:255
+msgid "Enter link for second featured box."
+msgstr ""
+
+#: ../options.php:262
+msgid "Third Featured Box Heading"
+msgstr ""
+
+#: ../options.php:263
+msgid "Enter heading for third featured box."
+msgstr ""
+
+#: ../options.php:269
+msgid "Third Featured Box Image Path (size: width * height (150px * 150px) )"
+msgstr ""
+
+#: ../options.php:270
+msgid "Upload image for third featured box."
+msgstr ""
+
+#: ../options.php:276
+msgid "Third Featured Box Content"
+msgstr ""
+
+#: ../options.php:277
+msgid "Enter content for third featured box."
+msgstr ""
+
+#: ../options.php:283
+msgid "Third Featured Box Link"
+msgstr ""
+
+#: ../options.php:284
+msgid "Enter link for third featured box."
+msgstr ""
+
+#: ../options.php:292
+msgid "Home Parallax Section"
+msgstr ""
+
+#: ../options.php:296
+msgid ""
+"Parallax Section Background Image (size: width * height (1600x * 1000px) )"
+msgstr ""
+
+#: ../options.php:297
+msgid "Upload background image for parallax section."
+msgstr ""
+
+#: ../options.php:303
+msgid "Parallax Section Content"
+msgstr ""
+
+#: ../options.php:304
+msgid "Enter content for parallax section"
+msgstr ""
+
+#: ../options.php:313
+msgid "Home Clients Logo Section"
+msgstr ""
+
+#: ../options.php:317
+msgid "Client Section Title"
+msgstr ""
+
+#: ../options.php:318
+msgid "Enter title for client section."
+msgstr ""
+
+#: ../options.php:324
+msgid "First Client Logo Title"
+msgstr ""
+
+#: ../options.php:325
+msgid "Enter title for first client logo image."
+msgstr ""
+
+#: ../options.php:331
+msgid "First Client Logo Image (size: width * height (232px * 101px)"
+msgstr ""
+
+#: ../options.php:332
+msgid "Upload image for first client logo."
+msgstr ""
+
+#: ../options.php:338
+msgid "First Client Logo Image Link"
+msgstr ""
+
+#: ../options.php:339
+msgid "Enter link for first client logo image."
+msgstr ""
+
+#: ../options.php:345
+msgid "Second Client Logo Title"
+msgstr ""
+
+#: ../options.php:346
+msgid "Enter title for second client logo image."
+msgstr ""
+
+#: ../options.php:352
+msgid "Second Client Logo Image (size: width * height (232px * 101px)"
+msgstr ""
+
+#: ../options.php:353
+msgid "Upload image for second client logo."
+msgstr ""
+
+#: ../options.php:359
+msgid "Second Client Logo Image Link"
+msgstr ""
+
+#: ../options.php:360
+msgid "Enter link for second client logo image."
+msgstr ""
+
+#: ../options.php:366
+msgid "Third Client Logo Title"
+msgstr ""
+
+#: ../options.php:367
+msgid "Enter title for third client logo image."
+msgstr ""
+
+#: ../options.php:373
+msgid "Third Client Logo Image (size: width * height (232px * 101px)"
+msgstr ""
+
+#: ../options.php:374
+msgid "Upload image for third client logo."
+msgstr ""
+
+#: ../options.php:380
+msgid "Third Client Logo Image Link"
+msgstr ""
+
+#: ../options.php:381
+msgid "Enter link for third client logo image."
+msgstr ""
+
+#: ../options.php:387
+msgid "Fourth Client Logo Title"
+msgstr ""
+
+#: ../options.php:388
+msgid "Enter title for fourth client logo image."
+msgstr ""
+
+#: ../options.php:394
+msgid "Fourth Client Logo Image (size: width * height (232px * 101px)"
+msgstr ""
+
+#: ../options.php:395
+msgid "Upload image for fourth client logo."
+msgstr ""
+
+#: ../options.php:401
+msgid "Fourth Client Logo Image Link"
+msgstr ""
+
+#: ../options.php:402
+msgid "Enter link for fourth client logo image."
+msgstr ""
+
+#: ../options.php:408
+msgid "Fifth Client Logo Title"
+msgstr ""
+
+#: ../options.php:409
+msgid "Enter title for fifth client logo image."
+msgstr ""
+
+#: ../options.php:415
+msgid "Fifth Client Logo Image (size: width * height (232px * 101px)"
+msgstr ""
+
+#: ../options.php:416
+msgid "Upload image for fifth client logo."
+msgstr ""
+
+#: ../options.php:422
+msgid "Fifth Client Logo Image Link"
+msgstr ""
+
+#: ../options.php:423
+msgid "Enter link for fifth client logo image."
+msgstr ""
+
+#: ../options.php:431
+msgid "Footer Settings"
+msgstr ""
+
+#: ../options.php:435
+msgid "Copyright Text"
+msgstr ""
+
+#: ../options.php:436
+msgid "Enter text for copyright (you can also use HTML tags here)."
+msgstr ""
+
+#: ../archive.php:28
+#, php-format
+msgid "Daily Archives : <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:30
+#, php-format
+msgid "Monthly Archives : <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:32
+#, php-format
+msgid "Yearly Archives : <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:34
+msgid "Blog Archives"
+msgstr ""
+
+#: ../single.php:56
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../single.php:62
+msgid "&larr; %link"
+msgstr ""
+
+#: ../single.php:63
+msgid "%link &rarr;"
+msgstr ""
+
+#: ../single.php:75
+msgid "Post Does Not Exist"
+msgstr ""
+
+#: ../template-fullwidth.php:44
+msgid "Not Found"
+msgstr ""
+
+#: ../SketchBoard/includes/options-framework.php:176
+msgid " Lite Options"
+msgstr ""
+
+#: ../SketchBoard/includes/options-framework.php:232
+msgid "To Activate All Features, Please Upgrade to Pro version!"
+msgstr ""
+
+#: ../SketchBoard/includes/options-framework.php:234
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: ../SketchBoard/includes/options-framework.php:235
+msgid "Setup Instructions"
+msgstr ""
+
+#: ../SketchBoard/includes/options-framework.php:237
+msgid "Rate Advertica Lite"
+msgstr ""
+
+#: ../SketchBoard/includes/options-framework.php:261
+msgid "Theme Options "
+msgstr ""
+
+#: ../SketchBoard/includes/options-framework.php:281
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: ../SketchBoard/includes/options-framework.php:315
+msgid "Default options restored."
+msgstr ""
+
+#: ../SketchBoard/includes/options-framework.php:358
+msgid "Options saved."
+msgstr ""
+
+#: ../SketchBoard/includes/options-framework.php:409
+msgid "Theme Options"
+msgstr ""
+
+#: ../SketchBoard/includes/options-sanitize.php:232
+msgid "No Repeat"
+msgstr ""
+
+#: ../SketchBoard/includes/options-sanitize.php:233
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: ../SketchBoard/includes/options-sanitize.php:234
+msgid "Repeat Vertically"
+msgstr ""
+
+#: ../SketchBoard/includes/options-sanitize.php:235
+msgid "Repeat All"
+msgstr ""
+
+#: ../SketchBoard/includes/options-sanitize.php:248
+msgid "Top Left"
+msgstr ""
+
+#: ../SketchBoard/includes/options-sanitize.php:249
+msgid "Top Center"
+msgstr ""
+
+#: ../SketchBoard/includes/options-sanitize.php:250
+msgid "Top Right"
+msgstr ""
+
+#: ../SketchBoard/includes/options-sanitize.php:251
+msgid "Middle Left"
+msgstr ""
+
+#: ../SketchBoard/includes/options-sanitize.php:252
+msgid "Middle Center"
+msgstr ""
+
+#: ../SketchBoard/includes/options-sanitize.php:253
+msgid "Middle Right"
+msgstr ""
+
+#: ../SketchBoard/includes/options-sanitize.php:254
+msgid "Bottom Left"
+msgstr ""
+
+#: ../SketchBoard/includes/options-sanitize.php:255
+msgid "Bottom Center"
+msgstr ""
+
+#: ../SketchBoard/includes/options-sanitize.php:256
+msgid "Bottom Right"
+msgstr ""
+
+#: ../SketchBoard/includes/options-sanitize.php:269
+msgid "Scroll Normally"
+msgstr ""
+
+#: ../SketchBoard/includes/options-sanitize.php:270
+msgid "Fixed in Place"
+msgstr ""
+
+#: ../SketchBoard/includes/options-sanitize.php:344
+msgid "Normal"
+msgstr ""
+
+#: ../SketchBoard/includes/options-sanitize.php:345
+msgid "Italic"
+msgstr ""
+
+#: ../SketchBoard/includes/options-sanitize.php:346
+msgid "Bold"
+msgstr ""
+
+#: ../SketchBoard/includes/options-sanitize.php:347
+msgid "Bold Italic"
+msgstr ""
+
+#: ../SketchBoard/includes/options-medialibrary-uploader.php:135
+msgid "Upload"
+msgstr ""
+
+#: ../SketchBoard/includes/options-medialibrary-uploader.php:158
+msgid "View File"
+msgstr ""
+
+#: ../SketchBoard/includes/options-medialibrary-uploader.php:295
+msgid "Gallery"
+msgstr ""
+
+#: ../SketchBoard/includes/options-medialibrary-uploader.php:295
+msgid "Previously Uploaded"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:23
+msgid "Sketch Themes"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:79
+msgid "Convac - Responsive Multi Author Blogging Theme"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:82
+msgid ""
+"Convac is elegant WordPress theme solely designed for web bloggers. The main "
+"aim of theme is to improve blog’s appearance for the end users and making "
+"blog posting a cakewalk task for bloggers. The theme has options and "
+"features which can customize blog as per your user and interest. Design for "
+"bloggers, theme is equipped with integrated features such as- post share, "
+"post like, subscription widget, supports to all post formats and many more."
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:85
+msgid "Try Convac Free"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:86
+#: ../SketchBoard/includes/sketchtheme-upsell.php:111
+#: ../SketchBoard/includes/sketchtheme-upsell.php:136
+#: ../SketchBoard/includes/sketchtheme-upsell.php:161
+#: ../SketchBoard/includes/sketchtheme-upsell.php:186
+#: ../SketchBoard/includes/sketchtheme-upsell.php:210
+#: ../SketchBoard/includes/sketchtheme-upsell.php:234
+#: ../SketchBoard/includes/sketchtheme-upsell.php:258
+#: ../SketchBoard/includes/sketchtheme-upsell.php:281
+#: ../SketchBoard/includes/sketchtheme-upsell.php:303
+#: ../SketchBoard/includes/sketchtheme-upsell.php:326
+msgid "View Demo"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:87
+msgid "Buy Convac Pro"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:103
+msgid "Foodeez - Multi Cuisine Restaurant WordPress Theme"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:106
+msgid ""
+"Foodeez Lite is the the classy theme created for Restaurants and hotel "
+"Industry. To provide a Classy, elegant theme for the hospitality industry "
+"and to fill in the void Foodeez was designed. Every restaurant or hotel "
+"desires to showcase it's cuisines and ambiance in a beautiful manner. This "
+"was not satiated by any prior theme. Hence, Foodeez was designed. Now you "
+"can enjoy a fully Responsive, and Full-width Header Background Image with "
+"floating navigation which gets converted into Persistent Navigation on "
+"scroll down.The Amazing Parallax section allows you to showcase your Super-"
+"Specialty Signature Dishes or your Dish of the Day. In short, if you're a "
+"chef, a cook, cuisine guru, food expert, food fanatic, blogger, nutrition "
+"expert, diet planner, dietitian, recipe sharer, Fine Dining Lover, or just a "
+"food enthusiast, who want to share the love of food. Then this theme is "
+"Perfect for you.Clean, Fresh Looks of this WordPress Theme will make you "
+"feel wow. The blog page is clean and designed to The Theme is Loaded with "
+"feature which you won't find on any other Lite Themes with this much "
+"precision and quality."
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:110
+msgid "Try Foodeez Free"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:112
+msgid "Buy Foodeez Pro"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:128
+msgid "Advertica - Creative MultiPurpose WordPress Theme"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:131
+#: ../SketchBoard/includes/sketchtheme-upsell.php:156
+msgid ""
+"A Clean, Multipurpose, Responsive Business WordPress Theme by SketchThemes. "
+"With easy customization options one can easily setup a perfect business "
+"theme in a few minutes. The striking features of INVERT are Easy Custom "
+"Admin Options, 3 Custom Page Templates, Parallax Section, Custom Logo, "
+"Custom favicon, Social links Setup, SEO Optimized, Call To Action, Featured "
+"Text."
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:135
+msgid "Try Advertica Free"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:137
+msgid "Buy Advertica Pro"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:153
+msgid "Invert - Responsive MultiPurpose WordPress Theme"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:160
+msgid "Try Invert Free"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:162
+msgid "Buy Invert Pro"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:178
+msgid "Biznez - Multi Purpose Wordpress Theme"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:181
+msgid ""
+"BizNez is a powerful Responsive Multipurpose WordPress Theme with clean and "
+"crispy design. BizNez is modern and flexible enough. It allows you to create "
+"your website around any niche without the need of any complicated HTML code "
+"knowledge. Be it a Blog, Business, Portfolio, Corporate, Agency, an online "
+"store or any other kind of website BizNez will be a good pick for you. With "
+"our advanced admin panel, tons of customizations are possible and that&#39;"
+"ll help you redefine your website&#39;s brand value. You can also change "
+"site layout with only a single click. Also, this theme comes with retina "
+"ready feature. You can see great details on any devices screen. Woo Commerce "
+"and RTL languages are also supported with our BizNez theme."
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:185
+msgid "Try Biznez Free"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:187
+msgid "Buy Biznez Pro"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:203
+msgid "Analytical Full Width Responsive Wordpress Theme"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:206
+msgid ""
+"Analytical is a full width WordPress theme built especially for "
+"photographers and others who want to feature more graphics on their website. "
+"This theme features a full width background slider which is highly "
+"customizable and totally responsive."
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:209
+msgid "Try Analytical Free"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:211
+msgid "Buy Analytical Pro"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:227
+msgid "BizStudio Full Width Responsive Wordpress Theme"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:230
+msgid ""
+"Bizstudio is a Simple, Minimal, Responsive, One Click Install, Beautiful and "
+"Elegent WordPress Theme. Along with the elegent design the theme is highly "
+"flexible and customizable with easy to use Admin Panel Options. From a wide "
+"range of options some key options are custom two different layout "
+"option(full width and with sidebar), 5 widget areas, custom follow us and "
+"contact widget, Logo, logo alt text, custom favicon, social links, rss feed "
+"button, custom copyright text and many more. Also it is compitable with "
+"various popular plugins like All in One SEO Pack, WP Super Cache, Contact "
+"Form 7 etc. It is translation ready as well."
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:233
+msgid "Try BizStudio Lite"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:235
+msgid "Buy BizStudio Pro"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:251
+msgid "Irex Full Width Portfolio Wordpress Theme"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:254
+msgid ""
+"Irex is a simple, minimal, responsive, easy to use, one click install, "
+"beautiful and Elegent WordPress Theme with Easy Custom Admin Options Created "
+"by SketchThemes.com. Using Irex theme options any one can easily customize "
+"this theme according to their need. You can use your own Logo, logo alt "
+"text, custom favicon, you can add social links, rss feed to homepage, you "
+"can use own copyright text etc. And all this information can be entered "
+"using Irex Theme Options Panel. You have to just set the content from the "
+"Irex  Themes Options Panel and it will be up ready to use."
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:257
+msgid "Try Irex Lite"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:259
+msgid "Buy Irex Pro"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:274
+msgid "SketchMini Free Responsive WordPress Theme"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:277
+msgid ""
+"SketchMini is a Responsive WordPress Theme Free to use with a GPL. "
+"SketchMini has got great features and awesome backend to make use of the "
+"available features in the theme. You dont need to be an expert to use this "
+"SketchMini theme. SketchMini can act as a great base theme to create any "
+"great website."
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:280
+msgid "Try Sketchmini Lite"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:297
+msgid "FullScreen - OnePager Responsive WordPress Theme"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:300
+msgid ""
+"FullScreen is clean, multipurpose and elegant WordPress theme with fully "
+"responsive layout. Theme is suited for all photographers, creative, business "
+"and portfolio websites. Theme includes lots of features like full-screen "
+"slider, modular homepage, layout shortcodes and more. With our advanced "
+"admin panel, tons of customizations are possible and that will help you "
+"redefine your website brand value."
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:304
+msgid "Buy FullScreen Pro"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:320
+msgid "Timeliner - Minimal Ultra Responsive WordPress Theme"
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:323
+msgid ""
+"Timeliner is a premier timeline theme for WordPress. Timeliner is a minimal, "
+"clean, modern and highly customizable theme. It allows you to create their "
+"website around any niche without the need of any complicated HTML code "
+"knowledge. Be it a Blog, Portfolio, Corporate, Agency, any other kind of "
+"website Timeliner will be a good pick for you. With our advanced admin "
+"panel, tons of customizations are possible and that will help you redefine "
+"your website&#39;s brand value. Also, this theme comes with retina ready "
+"feature. You can see great details on any devices screen."
+msgstr ""
+
+#: ../SketchBoard/includes/sketchtheme-upsell.php:327
+msgid "Buy Timeliner Pro"
+msgstr ""
+
+#: ../SketchBoard/functions/sketch-breadcrumb.php:23
+msgid "Home"
+msgstr ""
+
+#: ../SketchBoard/functions/sketch-breadcrumb.php:153
+msgid "Author"
+msgstr ""
+
+#: ../SketchBoard/functions/sketch-breadcrumb.php:161
+msgid "Tag"
+msgstr ""
+
+#: ../SketchBoard/functions/sketch-breadcrumb.php:173
+msgid "Error 404"
+msgstr ""
+
+#: ../SketchBoard/functions/sketch-functions.php:36
+msgid "Author: "
+msgstr ""

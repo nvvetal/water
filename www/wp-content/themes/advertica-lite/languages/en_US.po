@@ -1,0 +1,1234 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Advertica Lite v1.0.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-03-20 18:30+0530\n"
+"PO-Revision-Date: 2014-11-19 10:43:13+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:16
+#@ advertica-lite
+msgid "404"
+msgstr ""
+
+#: 404.php:17
+#@ advertica-lite
+msgid "Sorry, but the requested resource was not found on this site. Please try again or contact the administrator for assistance."
+msgstr ""
+
+#: archive.php:28
+#, php-format
+#@ advertica-lite
+msgid "Daily Archives : <span>%s</span>"
+msgstr ""
+
+#: archive.php:30
+#, php-format
+#@ advertica-lite
+msgid "Monthly Archives : <span>%s</span>"
+msgstr ""
+
+#: archive.php:30
+#@ advertica-lite
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:32
+#, php-format
+#@ advertica-lite
+msgid "Yearly Archives : <span>%s</span>"
+msgstr ""
+
+#: archive.php:32
+#@ advertica-lite
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: archive.php:34
+#@ advertica-lite
+msgid "Blog Archives"
+msgstr ""
+
+#: archive.php:63
+#: author.php:40
+#: category.php:42
+#: home.php:44
+#: index.php:44
+#: search.php:39
+#: tag.php:44
+#@ advertica-lite
+msgid "&larr;Previous"
+msgstr ""
+
+#: archive.php:64
+#: author.php:41
+#: category.php:43
+#: home.php:45
+#: index.php:45
+#: search.php:40
+#: tag.php:45
+#@ advertica-lite
+msgid "Next&rarr;"
+msgstr ""
+
+#: author.php:16
+#@ advertica-lite
+msgid "Author Archives : "
+msgstr ""
+
+#: category.php:17
+#, php-format
+#@ advertica-lite
+msgid "Category Archives : %s"
+msgstr ""
+
+#: comments.php:17
+#@ advertica-lite
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:27
+#@ advertica-lite
+msgid "No Comment"
+msgstr ""
+
+#: comments.php:27
+#@ advertica-lite
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:27
+#@ advertica-lite
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:27
+#@ advertica-lite
+msgid " so far:"
+msgstr ""
+
+#: comments.php:44
+#@ advertica-lite
+msgid "Comments are closed."
+msgstr ""
+
+#: content-none.php:8
+#@ advertica-lite
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:13
+#, php-format
+#@ advertica-lite
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:15
+#@ advertica-lite
+msgid "Sorry, but nothing matched your search terms. Please try again with different keywords."
+msgstr ""
+
+#: content-none.php:18
+#@ advertica-lite
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: content.php:29
+#: single.php:47
+#@ advertica-lite
+msgid "On"
+msgstr ""
+
+#: content.php:29
+#: content.php:30
+#: content.php:31
+#: single.php:47
+#: single.php:48
+#: single.php:49
+#@ advertica-lite
+msgid ","
+msgstr ""
+
+#: content.php:30
+#: single.php:48
+#@ advertica-lite
+msgid "Posted by "
+msgstr ""
+
+#: content.php:31
+#: single.php:49
+#@ advertica-lite
+msgid "In "
+msgstr ""
+
+#: content.php:33
+#: single.php:51
+#@ advertica-lite
+msgid "With "
+msgstr ""
+
+#: content.php:33
+#: single.php:51
+#@ advertica-lite
+msgid "No Comments "
+msgstr ""
+
+#: content.php:33
+#: single.php:51
+#@ advertica-lite
+msgid "1 Comment "
+msgstr ""
+
+#: content.php:33
+#: single.php:51
+#@ advertica-lite
+msgid "% Comments "
+msgstr ""
+
+#: content.php:39
+#@ advertica-lite
+msgid "Read More"
+msgstr ""
+
+#: footer.php:43
+#@ advertica-lite
+msgid "Advertica Theme by"
+msgstr ""
+
+#: footer.php:43
+#@ advertica-lite
+msgid "SketchThemes"
+msgstr ""
+
+#: functions.php:97
+#@ advertica-lite
+msgid "Main Navigation"
+msgstr ""
+
+#: functions.php:123
+#@ advertica-lite
+msgid "Untitled"
+msgstr ""
+
+#: home.php:35
+#: index.php:35
+#@ advertica-lite
+msgid "<div class='sticky-post'>featured</div>"
+msgstr ""
+
+#: options.php:45
+#@ advertica-lite
+msgid "Enable"
+msgstr ""
+
+#: options.php:46
+#@ advertica-lite
+msgid "Disable"
+msgstr ""
+
+#: options.php:50
+#@ advertica-lite
+msgid "Image"
+msgstr ""
+
+#: options.php:51
+#@ advertica-lite
+msgid "Color"
+msgstr ""
+
+#: options.php:93
+#@ advertica-lite
+msgid "General Settings"
+msgstr ""
+
+#: options.php:97
+#@ advertica-lite
+msgid "Choose Theme Color"
+msgstr ""
+
+#: options.php:104
+#@ advertica-lite
+msgid "Change Logo (full path to logo image size: width * height (156px * 40px) )"
+msgstr ""
+
+#: options.php:105
+#@ advertica-lite
+msgid "This creates a custom logo for your website."
+msgstr ""
+
+#: options.php:111
+#@ advertica-lite
+msgid "Logo ALT Text"
+msgstr ""
+
+#: options.php:112
+#@ advertica-lite
+msgid "Enter logo image alt attribute text."
+msgstr ""
+
+#: options.php:118
+#@ advertica-lite
+msgid "Upload Favicon"
+msgstr ""
+
+#: options.php:119
+#@ advertica-lite
+msgid "This creates a custom favicon for your website."
+msgstr ""
+
+#: options.php:126
+#@ advertica-lite
+msgid "Custom Background"
+msgstr ""
+
+#: options.php:127
+#@ advertica-lite
+msgid "Change the page background."
+msgstr ""
+
+#: options.php:134
+#@ advertica-lite
+msgid "Breadcrumb Settings"
+msgstr ""
+
+#: options.php:138
+#@ advertica-lite
+msgid "Breadcrumb Enable/Disable"
+msgstr ""
+
+#: options.php:146
+#@ advertica-lite
+msgid "Page Title & Breadcrumb Background Type"
+msgstr ""
+
+#: options.php:154
+#@ advertica-lite
+msgid "Choose Page Title & Breadcrumb Background Color"
+msgstr ""
+
+#: options.php:155
+#@ advertica-lite
+msgid "Please choose background color"
+msgstr ""
+
+#: options.php:162
+#@ advertica-lite
+msgid "Upload Page Title & Breadcrumb Background Image ( width * height (1600px * 180px) )"
+msgstr ""
+
+#: options.php:163
+#@ advertica-lite
+msgid "This image will show up as background on page title & breadcrumb section."
+msgstr ""
+
+#: options.php:170
+#@ advertica-lite
+msgid "Choose Page Title & Breadcrumb Font Color"
+msgstr ""
+
+#: options.php:171
+#@ advertica-lite
+msgid "Please choose font color"
+msgstr ""
+
+#: options.php:177
+#@ advertica-lite
+msgid "Blog Page Settings"
+msgstr ""
+
+#: options.php:182
+#@ advertica-lite
+msgid "Enter Blog Page Title"
+msgstr ""
+
+#: options.php:183
+#@ advertica-lite
+msgid "Enter blog page title text."
+msgstr ""
+
+#: options.php:192
+#@ advertica-lite
+msgid "Home Featured Section"
+msgstr ""
+
+#: options.php:196
+#@ advertica-lite
+msgid "Home page Image:"
+msgstr ""
+
+#: options.php:197
+#@ advertica-lite
+msgid "Choose image for home page. Size: Width 1600px and Height 500px."
+msgstr ""
+
+#: options.php:204
+#@ advertica-lite
+msgid "First Featured Box Heading"
+msgstr ""
+
+#: options.php:205
+#@ advertica-lite
+msgid "Enter heading for first featured box."
+msgstr ""
+
+#: options.php:211
+#@ advertica-lite
+msgid "First Featured Box Image Path (size: width * height (150px * 150px) )"
+msgstr ""
+
+#: options.php:212
+#@ advertica-lite
+msgid "Upload image for first featured box."
+msgstr ""
+
+#: options.php:218
+#@ advertica-lite
+msgid "First Featured Box Content"
+msgstr ""
+
+#: options.php:219
+#@ advertica-lite
+msgid "Enter content for first featured box."
+msgstr ""
+
+#: options.php:225
+#@ advertica-lite
+msgid "First Featured Box Link"
+msgstr ""
+
+#: options.php:226
+#@ advertica-lite
+msgid "Enter link for first featured box."
+msgstr ""
+
+#: options.php:233
+#@ advertica-lite
+msgid "Second Featured Box Heading"
+msgstr ""
+
+#: options.php:234
+#@ advertica-lite
+msgid "Enter heading for second featured box."
+msgstr ""
+
+#: options.php:240
+#@ advertica-lite
+msgid "Second Featured Box Image Path (size: width * height (150px * 150px) )"
+msgstr ""
+
+#: options.php:241
+#@ advertica-lite
+msgid "Upload image for second featured box."
+msgstr ""
+
+#: options.php:247
+#@ advertica-lite
+msgid "Second Featured Box Content"
+msgstr ""
+
+#: options.php:248
+#@ advertica-lite
+msgid "Enter content for second featured box."
+msgstr ""
+
+#: options.php:254
+#@ advertica-lite
+msgid "Second Featured Box Link"
+msgstr ""
+
+#: options.php:255
+#@ advertica-lite
+msgid "Enter link for second featured box."
+msgstr ""
+
+#: options.php:262
+#@ advertica-lite
+msgid "Third Featured Box Heading"
+msgstr ""
+
+#: options.php:263
+#@ advertica-lite
+msgid "Enter heading for third featured box."
+msgstr ""
+
+#: options.php:269
+#@ advertica-lite
+msgid "Third Featured Box Image Path (size: width * height (150px * 150px) )"
+msgstr ""
+
+#: options.php:270
+#@ advertica-lite
+msgid "Upload image for third featured box."
+msgstr ""
+
+#: options.php:276
+#@ advertica-lite
+msgid "Third Featured Box Content"
+msgstr ""
+
+#: options.php:277
+#@ advertica-lite
+msgid "Enter content for third featured box."
+msgstr ""
+
+#: options.php:283
+#@ advertica-lite
+msgid "Third Featured Box Link"
+msgstr ""
+
+#: options.php:284
+#@ advertica-lite
+msgid "Enter link for third featured box."
+msgstr ""
+
+#: options.php:292
+#@ advertica-lite
+msgid "Home Parallax Section"
+msgstr ""
+
+#: options.php:296
+#@ advertica-lite
+msgid "Parallax Section Background Image (size: width * height (1600x * 1000px) )"
+msgstr ""
+
+#: options.php:297
+#@ advertica-lite
+msgid "Upload background image for parallax section."
+msgstr ""
+
+#: options.php:303
+#@ advertica-lite
+msgid "Parallax Section Content"
+msgstr ""
+
+#: options.php:304
+#@ advertica-lite
+msgid "Enter content for parallax section"
+msgstr ""
+
+#: options.php:313
+#@ advertica-lite
+msgid "Home Clients Logo Section"
+msgstr ""
+
+#: options.php:317
+#@ advertica-lite
+msgid "Client Section Title"
+msgstr ""
+
+#: options.php:318
+#@ advertica-lite
+msgid "Enter title for client section."
+msgstr ""
+
+#: options.php:324
+#@ advertica-lite
+msgid "First Client Logo Title"
+msgstr ""
+
+#: options.php:325
+#@ advertica-lite
+msgid "Enter title for first client logo image."
+msgstr ""
+
+#: options.php:331
+#@ advertica-lite
+msgid "First Client Logo Image (size: width * height (232px * 101px)"
+msgstr ""
+
+#: options.php:332
+#@ advertica-lite
+msgid "Upload image for first client logo."
+msgstr ""
+
+#: options.php:338
+#@ advertica-lite
+msgid "First Client Logo Image Link"
+msgstr ""
+
+#: options.php:339
+#@ advertica-lite
+msgid "Enter link for first client logo image."
+msgstr ""
+
+#: options.php:345
+#@ advertica-lite
+msgid "Second Client Logo Title"
+msgstr ""
+
+#: options.php:346
+#@ advertica-lite
+msgid "Enter title for second client logo image."
+msgstr ""
+
+#: options.php:352
+#@ advertica-lite
+msgid "Second Client Logo Image (size: width * height (232px * 101px)"
+msgstr ""
+
+#: options.php:353
+#@ advertica-lite
+msgid "Upload image for second client logo."
+msgstr ""
+
+#: options.php:359
+#@ advertica-lite
+msgid "Second Client Logo Image Link"
+msgstr ""
+
+#: options.php:360
+#@ advertica-lite
+msgid "Enter link for second client logo image."
+msgstr ""
+
+#: options.php:366
+#@ advertica-lite
+msgid "Third Client Logo Title"
+msgstr ""
+
+#: options.php:367
+#@ advertica-lite
+msgid "Enter title for third client logo image."
+msgstr ""
+
+#: options.php:373
+#@ advertica-lite
+msgid "Third Client Logo Image (size: width * height (232px * 101px)"
+msgstr ""
+
+#: options.php:374
+#@ advertica-lite
+msgid "Upload image for third client logo."
+msgstr ""
+
+#: options.php:380
+#@ advertica-lite
+msgid "Third Client Logo Image Link"
+msgstr ""
+
+#: options.php:381
+#@ advertica-lite
+msgid "Enter link for third client logo image."
+msgstr ""
+
+#: options.php:387
+#@ advertica-lite
+msgid "Fourth Client Logo Title"
+msgstr ""
+
+#: options.php:388
+#@ advertica-lite
+msgid "Enter title for fourth client logo image."
+msgstr ""
+
+#: options.php:394
+#@ advertica-lite
+msgid "Fourth Client Logo Image (size: width * height (232px * 101px)"
+msgstr ""
+
+#: options.php:395
+#@ advertica-lite
+msgid "Upload image for fourth client logo."
+msgstr ""
+
+#: options.php:401
+#@ advertica-lite
+msgid "Fourth Client Logo Image Link"
+msgstr ""
+
+#: options.php:402
+#@ advertica-lite
+msgid "Enter link for fourth client logo image."
+msgstr ""
+
+#: options.php:408
+#@ advertica-lite
+msgid "Fifth Client Logo Title"
+msgstr ""
+
+#: options.php:409
+#@ advertica-lite
+msgid "Enter title for fifth client logo image."
+msgstr ""
+
+#: options.php:415
+#@ advertica-lite
+msgid "Fifth Client Logo Image (size: width * height (232px * 101px)"
+msgstr ""
+
+#: options.php:416
+#@ advertica-lite
+msgid "Upload image for fifth client logo."
+msgstr ""
+
+#: options.php:422
+#@ advertica-lite
+msgid "Fifth Client Logo Image Link"
+msgstr ""
+
+#: options.php:423
+#@ advertica-lite
+msgid "Enter link for fifth client logo image."
+msgstr ""
+
+#: options.php:431
+#@ advertica-lite
+msgid "Footer Settings"
+msgstr ""
+
+#: options.php:435
+#@ advertica-lite
+msgid "Copyright Text"
+msgstr ""
+
+#: options.php:436
+#@ advertica-lite
+msgid "Enter text for copyright (you can also use HTML tags here)."
+msgstr ""
+
+#: page.php:39
+#: single.php:57
+#: template-fullwidth.php:34
+#@ advertica-lite
+msgid "<p><strong>Pages:</strong> "
+msgstr ""
+
+#: page.php:39
+#: single.php:57
+#: template-fullwidth.php:34
+#@ advertica-lite
+msgid "number"
+msgstr ""
+
+#: page.php:51
+#@ advertica-lite
+msgid "Page Does Not Exist"
+msgstr ""
+
+#: searchform.php:3
+#: searchform.php:6
+#: SketchBoard/functions/sketch-breadcrumb.php:169
+#@ advertica-lite
+msgid "Search"
+msgstr ""
+
+#: search.php:15
+#, php-format
+#@ advertica-lite
+msgid "Search Results for : %s"
+msgstr ""
+
+#: single.php:56
+#@ advertica-lite
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: single.php:62
+#, php-format
+#@ advertica-lite
+msgid "&larr; %link"
+msgstr ""
+
+#: single.php:63
+#, php-format
+#@ advertica-lite
+msgid "%link &rarr;"
+msgstr ""
+
+#: single.php:75
+#@ advertica-lite
+msgid "Post Does Not Exist"
+msgstr ""
+
+#: SketchBoard/functions/sketch-breadcrumb.php:23
+#@ advertica-lite
+msgid "Home"
+msgstr ""
+
+#: SketchBoard/functions/sketch-breadcrumb.php:153
+#@ advertica-lite
+msgid "Author"
+msgstr ""
+
+#: SketchBoard/functions/sketch-breadcrumb.php:161
+#@ advertica-lite
+msgid "Tag"
+msgstr ""
+
+#: SketchBoard/functions/sketch-breadcrumb.php:173
+#@ advertica-lite
+msgid "Error 404"
+msgstr ""
+
+#: SketchBoard/functions/sketch-functions.php:36
+#@ advertica-lite
+msgid "Author: "
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:176
+#@ advertica-lite
+msgid " Lite Options"
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:232
+#@ advertica-lite
+msgid "To Activate All Features, Please Upgrade to Pro version!"
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:234
+#@ advertica-lite
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:235
+#@ advertica-lite
+msgid "Setup Instructions"
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:237
+#@ advertica-lite
+msgid "Rate Advertica Lite"
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:261
+#@ advertica-lite
+msgid "Theme Options "
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:280
+#: SketchBoard/includes/options-framework.php:285
+#@ optionsframework
+#@ advertica-lite
+msgid "Save Options"
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:281
+#@ optionsframework
+msgid "Restore Defaults"
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:281
+#@ advertica-lite
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:315
+#@ advertica-lite
+msgid "Default options restored."
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:358
+#@ advertica-lite
+msgid "Options saved."
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:409
+#@ advertica-lite
+msgid "Theme Options"
+msgstr ""
+
+#: SketchBoard/includes/options-medialibrary-uploader.php:135
+#@ advertica-lite
+msgid "Upload"
+msgstr ""
+
+#: SketchBoard/includes/options-medialibrary-uploader.php:158
+#@ optionsframework
+msgid "View File"
+msgstr ""
+
+#: SketchBoard/includes/options-medialibrary-uploader.php:295
+#@ optionsframework
+msgid "Gallery"
+msgstr ""
+
+#: SketchBoard/includes/options-medialibrary-uploader.php:295
+#@ optionsframework
+msgid "Previously Uploaded"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:232
+#@ advertica-lite
+msgid "No Repeat"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:233
+#@ advertica-lite
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:234
+#@ advertica-lite
+msgid "Repeat Vertically"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:235
+#@ advertica-lite
+msgid "Repeat All"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:248
+#@ advertica-lite
+msgid "Top Left"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:249
+#@ advertica-lite
+msgid "Top Center"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:250
+#@ advertica-lite
+msgid "Top Right"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:251
+#@ advertica-lite
+msgid "Middle Left"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:252
+#@ advertica-lite
+msgid "Middle Center"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:253
+#@ advertica-lite
+msgid "Middle Right"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:254
+#@ advertica-lite
+msgid "Bottom Left"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:255
+#@ advertica-lite
+msgid "Bottom Center"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:256
+#@ advertica-lite
+msgid "Bottom Right"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:269
+#@ advertica-lite
+msgid "Scroll Normally"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:270
+#@ advertica-lite
+msgid "Fixed in Place"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:344
+#@ advertica-lite
+msgid "Normal"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:345
+#@ advertica-lite
+msgid "Italic"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:346
+#@ advertica-lite
+msgid "Bold"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:347
+#@ advertica-lite
+msgid "Bold Italic"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:23
+#@ advertica-lite
+msgid "Sketch Themes"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:79
+#@ advertica-lite
+msgid "Rational – Impressive One Pager Responsive Business WordPress Theme"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:82
+#@ advertica-lite
+msgid "Every business requires an approach that shows the logic behind floating the trade and the exact objective with which the venture is initiated.Adding a rational approach to every business in the first place, the Rational – One Pager Responsive Business WordPress Theme certainly promises to better user’s experience."
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:86
+#@ advertica-lite
+msgid "Try Rational Free"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:87
+#: SketchBoard/includes/sketchtheme-upsell.php:113
+#: SketchBoard/includes/sketchtheme-upsell.php:137
+#: SketchBoard/includes/sketchtheme-upsell.php:162
+#: SketchBoard/includes/sketchtheme-upsell.php:187
+#: SketchBoard/includes/sketchtheme-upsell.php:212
+#: SketchBoard/includes/sketchtheme-upsell.php:237
+#: SketchBoard/includes/sketchtheme-upsell.php:261
+#: SketchBoard/includes/sketchtheme-upsell.php:285
+#: SketchBoard/includes/sketchtheme-upsell.php:309
+#: SketchBoard/includes/sketchtheme-upsell.php:332
+#: SketchBoard/includes/sketchtheme-upsell.php:354
+#: SketchBoard/includes/sketchtheme-upsell.php:377
+#@ advertica-lite
+msgid "View Demo"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:88
+#@ advertica-lite
+msgid "Buy Rational Pro"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:105
+#@ advertica-lite
+msgid "InCart - Responsive WooCommerce WordPress Theme"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:108
+#@ advertica-lite
+msgid "SketchThemes continues the legacy of best multipurpose responsive business WordPress themes. Here we are gearing up to introduce a new WooCommerce WordPress theme which keeps it at the top priority for the customers to proliferate their business. This classy theme is fully WooCommerce compatible, SEO optimized and fully responsive so forget the fear of screen sizes, SEO optimization, just go and grab it."
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:112
+#@ advertica-lite
+msgid "Try Incart Free"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:114
+#@ advertica-lite
+msgid "Buy Incart Pro"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:130
+#@ advertica-lite
+msgid "Convac - Responsive Multi Author Blogging Theme"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:133
+#@ advertica-lite
+msgid "Convac is elegant WordPress theme solely designed for web bloggers. The main aim of theme is to improve blog’s appearance for the end users and making blog posting a cakewalk task for bloggers. The theme has options and features which can customize blog as per your user and interest. Design for bloggers, theme is equipped with integrated features such as- post share, post like, subscription widget, supports to all post formats and many more."
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:136
+#@ advertica-lite
+msgid "Try Convac Free"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:138
+#@ advertica-lite
+msgid "Buy Convac Pro"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:154
+#@ advertica-lite
+msgid "Foodeez - Multi Cuisine Restaurant WordPress Theme"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:157
+#@ advertica-lite
+msgid "Foodeez Lite is the the classy theme created for Restaurants and hotel Industry. To provide a Classy, elegant theme for the hospitality industry and to fill in the void Foodeez was designed. Every restaurant or hotel desires to showcase it's cuisines and ambiance in a beautiful manner. This was not satiated by any prior theme. Hence, Foodeez was designed. Now you can enjoy a fully Responsive, and Full-width Header Background Image with floating navigation which gets converted into Persistent Navigation on scroll down.The Amazing Parallax section allows you to showcase your Super-Specialty Signature Dishes or your Dish of the Day. In short, if you're a chef, a cook, cuisine guru, food expert, food fanatic, blogger, nutrition expert, diet planner, dietitian, recipe sharer, Fine Dining Lover, or just a food enthusiast, who want to share the love of food. Then this theme is Perfect for you.Clean, Fresh Looks of this WordPress Theme will make you feel wow. The blog page is clean and designed to The Theme is Loaded with feature which you won't find on any other Lite Themes with this much precision and quality."
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:161
+#@ advertica-lite
+msgid "Try Foodeez Free"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:163
+#@ advertica-lite
+msgid "Buy Foodeez Pro"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:179
+#@ advertica-lite
+msgid "Advertica - Creative MultiPurpose WordPress Theme"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:182
+#: SketchBoard/includes/sketchtheme-upsell.php:207
+#@ advertica-lite
+msgid "A Clean, Multipurpose, Responsive Business WordPress Theme by SketchThemes. With easy customization options one can easily setup a perfect business theme in a few minutes. The striking features of INVERT are Easy Custom Admin Options, 3 Custom Page Templates, Parallax Section, Custom Logo, Custom favicon, Social links Setup, SEO Optimized, Call To Action, Featured Text."
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:186
+#@ advertica-lite
+msgid "Try Advertica Free"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:188
+#@ advertica-lite
+msgid "Buy Advertica Pro"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:204
+#@ advertica-lite
+msgid "Invert - Responsive MultiPurpose WordPress Theme"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:211
+#@ advertica-lite
+msgid "Try Invert Free"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:213
+#@ advertica-lite
+msgid "Buy Invert Pro"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:229
+#@ advertica-lite
+msgid "Biznez - Multi Purpose Wordpress Theme"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:232
+#@ advertica-lite
+msgid "BizNez is a powerful Responsive Multipurpose WordPress Theme with clean and crispy design. BizNez is modern and flexible enough. It allows you to create your website around any niche without the need of any complicated HTML code knowledge. Be it a Blog, Business, Portfolio, Corporate, Agency, an online store or any other kind of website BizNez will be a good pick for you. With our advanced admin panel, tons of customizations are possible and that&#39;ll help you redefine your website&#39;s brand value. You can also change site layout with only a single click. Also, this theme comes with retina ready feature. You can see great details on any devices screen. Woo Commerce and RTL languages are also supported with our BizNez theme."
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:236
+#@ advertica-lite
+msgid "Try Biznez Free"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:238
+#@ advertica-lite
+msgid "Buy Biznez Pro"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:254
+#@ advertica-lite
+msgid "Analytical Full Width Responsive Wordpress Theme"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:257
+#@ advertica-lite
+msgid "Analytical is a full width WordPress theme built especially for photographers and others who want to feature more graphics on their website. This theme features a full width background slider which is highly customizable and totally responsive."
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:260
+#@ advertica-lite
+msgid "Try Analytical Free"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:262
+#@ advertica-lite
+msgid "Buy Analytical Pro"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:278
+#@ advertica-lite
+msgid "BizStudio Full Width Responsive Wordpress Theme"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:281
+#@ advertica-lite
+msgid "Bizstudio is a Simple, Minimal, Responsive, One Click Install, Beautiful and Elegent WordPress Theme. Along with the elegent design the theme is highly flexible and customizable with easy to use Admin Panel Options. From a wide range of options some key options are custom two different layout option(full width and with sidebar), 5 widget areas, custom follow us and contact widget, Logo, logo alt text, custom favicon, social links, rss feed button, custom copyright text and many more. Also it is compitable with various popular plugins like All in One SEO Pack, WP Super Cache, Contact Form 7 etc. It is translation ready as well."
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:284
+#@ advertica-lite
+msgid "Try BizStudio Lite"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:286
+#@ advertica-lite
+msgid "Buy BizStudio Pro"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:302
+#@ advertica-lite
+msgid "Irex Full Width Portfolio Wordpress Theme"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:305
+#@ advertica-lite
+msgid "Irex is a simple, minimal, responsive, easy to use, one click install, beautiful and Elegent WordPress Theme with Easy Custom Admin Options Created by SketchThemes.com. Using Irex theme options any one can easily customize this theme according to their need. You can use your own Logo, logo alt text, custom favicon, you can add social links, rss feed to homepage, you can use own copyright text etc. And all this information can be entered using Irex Theme Options Panel. You have to just set the content from the Irex  Themes Options Panel and it will be up ready to use."
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:308
+#@ advertica-lite
+msgid "Try Irex Lite"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:310
+#@ advertica-lite
+msgid "Buy Irex Pro"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:325
+#@ advertica-lite
+msgid "SketchMini Free Responsive WordPress Theme"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:328
+#@ advertica-lite
+msgid "SketchMini is a Responsive WordPress Theme Free to use with a GPL. SketchMini has got great features and awesome backend to make use of the available features in the theme. You dont need to be an expert to use this SketchMini theme. SketchMini can act as a great base theme to create any great website."
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:331
+#@ advertica-lite
+msgid "Try Sketchmini Lite"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:348
+#@ advertica-lite
+msgid "FullScreen - OnePager Responsive WordPress Theme"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:351
+#@ advertica-lite
+msgid "FullScreen is clean, multipurpose and elegant WordPress theme with fully responsive layout. Theme is suited for all photographers, creative, business and portfolio websites. Theme includes lots of features like full-screen slider, modular homepage, layout shortcodes and more. With our advanced admin panel, tons of customizations are possible and that will help you redefine your website brand value."
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:355
+#@ advertica-lite
+msgid "Buy FullScreen Pro"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:371
+#@ advertica-lite
+msgid "Timeliner - Minimal Ultra Responsive WordPress Theme"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:374
+#@ advertica-lite
+msgid "Timeliner is a premier timeline theme for WordPress. Timeliner is a minimal, clean, modern and highly customizable theme. It allows you to create their website around any niche without the need of any complicated HTML code knowledge. Be it a Blog, Portfolio, Corporate, Agency, any other kind of website Timeliner will be a good pick for you. With our advanced admin panel, tons of customizations are possible and that will help you redefine your website&#39;s brand value. Also, this theme comes with retina ready feature. You can see great details on any devices screen."
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:378
+#@ advertica-lite
+msgid "Buy Timeliner Pro"
+msgstr ""
+
+#: tag.php:18
+#, php-format
+#@ advertica-lite
+msgid "Tag Archives : %s"
+msgstr ""
+
+#: template-fullwidth.php:44
+#@ advertica-lite
+msgid "Not Found"
+msgstr ""
+

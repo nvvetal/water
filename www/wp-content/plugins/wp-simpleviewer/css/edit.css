@@ -1,0 +1,80 @@
+.sv-custom-wrap {
+	line-height: 20px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	width: 642px;
+}
+
+.sv-legend {
+	margin-left: 10px;
+}
+
+.sv-custom-wrap fieldset {
+	border: 1px solid #cccccc;
+	margin: 10px 0px;
+	padding: 10px 0px;
+}
+
+.sv-column-1, .sv-column-2, .sv-column-3, .sv-column-4 {
+	display: inline;
+	float: left;
+}
+
+.sv-column-1 {
+	margin-left: 10px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 150px;
+}
+
+.sv-column-2 {
+	margin-left: 5px;
+	width: 465px;
+}
+
+.sv-column-3 {
+	margin-left: 5px;
+	width: 150px;
+}
+
+.sv-column-4 {
+	margin-left: 10px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 620px;
+}
+
+.sv-column-2 input, .sv-column-2 textarea, .sv-column-3 input[type=text], .sv-column-3 select {
+	width: 100%;
+}
+
+.sv-column-2 input[type=text], .sv-column-3 input[type=text] {
+	font-size: 14px;
+	line-height: 20px;
+	padding: 3px 5px;
+}
+
+.sv-column-2 textarea {
+	font-family: Courier, monospace;
+	line-height: 15px;
+}
+
+.sv-column-clear {
+	clear: left;
+	height: 0px;
+	padding: 5px 0px;
+}
+
+.sv-toggle-source {
+	display: none;
+}
+
+.sv-table-buttons form {
+	display: inline;
+}
+
+#sv-manage-galleries-page img {
+	vertical-align: text-bottom;
+}

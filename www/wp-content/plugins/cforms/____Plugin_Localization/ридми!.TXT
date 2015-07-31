@@ -1,0 +1,16 @@
+09.04.2012
+Русификация к cforms 14.0
+
+файл cforms-ru_RU.mo положите в папку wp-content/plugins/
+Файл ru.js в папку wp-content/plugins/cforms/js/langs/
+
+*******************************************************
+http://www.sonika.ru/blog/wordpress/cforms-rus.htm
+*******************************************************
+
+
+ВНИМАНИЕ!
+
+FAQ по cforms на русском:     http://www.sonika.ru/blog/wordpress/cforms-rus.htm
+FAQ по cforms на английском:  http://www.deliciousdays.com/cforms-forum/troubleshooting/frequently-asked-questions-faqs/page-1/
+Официальный форум cforms:     http://www.deliciousdays.com/cforms-forum/
