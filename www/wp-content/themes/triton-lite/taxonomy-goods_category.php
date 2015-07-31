@@ -40,7 +40,7 @@ $_SESSION[] = 'asdadasdad';
                 <?php
 
                 $args = array('taxonomy' => 'goods_category');
-                $categories =  get_categories($args);  //Возвращает массив объектов содержащих информацию о категориях.
+                $categories=  get_categories($args);  //Возвращает массив объектов содержащих информацию о категориях.
 
                 echo '<div class="row-fluid tags">';
                 echo "<ul>";
