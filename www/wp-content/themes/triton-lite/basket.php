@@ -22,6 +22,6 @@ $ordered_goods_id_no++;
 //$_SESSION['ordered_goods_id'] = $id;
 $_SESSION[] = $id;
 
-echo "<pre>"; var_dump($_SESSION); echo "</pre>";
+//echo "<pre>"; var_dump($_SESSION); echo "</pre>";
 
 ?>

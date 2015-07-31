@@ -26,7 +26,7 @@ get_header(); ?>
 //        $v = $_POST["name"];
 //        var_dump($v);
 
-if (!session_id()) session_start();
+//if (!session_id()) session_start();
 //var_dump(session_id());
 $_SESSION[] = 'asdadasdad';
 //echo "<pre>"; var_dump($_SESSION); echo "</pre>";
@@ -40,8 +40,7 @@ $_SESSION[] = 'asdadasdad';
                 <?php
 
                 $args = array('taxonomy' => 'goods_category');
-                $categories=  get_categories($args);  //Возвращает массив объектов содержащих информацию о категориях.
-
+                $categories =  get_categories($args);  //Возвращает массив объектов содержащих информацию о категориях.
                 echo '<div class="row-fluid tags">';
                 echo "<ul>";
                 foreach($categories as $category)

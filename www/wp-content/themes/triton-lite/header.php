@@ -264,7 +264,7 @@
     ?>
 
 
-
+<!--Модалька на покупку воды с хедера-->
     <div class="modal" id="modal-quick-order" style="display: none;">
         <!--    <div class="modal-header">-->
         <!--        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>-->
@@ -505,7 +505,7 @@ if( $query->have_posts() ){
     wp_reset_query();
 } ?>
 
-
+<!--Модалька на категории -->
 <div class="modal-backdrop" style="display: none">
     <button class="closes" data-dismiss="modal"></button>
 </div>
