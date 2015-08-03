@@ -20,7 +20,7 @@ echo '<div class="modal hide in" id="modal-product" style="top: 73.5px; display:
             echo '<tr>';
                 echo '<td class="pic">';
                     echo '<div>';
-                    echo '<img class="zoom-image" src="'.the_post_thumbnail().'" data-zoom-image="http://kodacka-voda.com/wp-content/uploads/2014/05/DSC05710-copy-683x1024.jpg" title="" Кодацкая="" вода""="">';
+                    echo '<img class="zoom-image" src="'.the_post_thumbnail().'"  title="" Кодацкая="" вода""="">';//data-zoom-image="'.the_post_thumbnail().'"
                     echo '</div>';
                 echo '</td>';
                 echo '<td class="content">';
