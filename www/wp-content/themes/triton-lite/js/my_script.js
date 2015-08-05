@@ -74,6 +74,78 @@ function orderQuantityPlus() {
     }
 
 }
+function orderQuantityPlus1() {
+
+    $("#modal-product .quantity").css('margin-top', '14px');
+
+    var initial=document.quantity.value;
+    initial++;
+    var quantity = initial;
+    alert( $('#modal-product .quantity [name="quantity"]').data('price-2-4') );
+    var price = $('#modal-product .quantity [name="quantity"]').attr('data-price');
+    var price2_4 = $('#modal-product .quantity [name="quantity"]').attr('data-price-2-4');
+    var price5_9 = $('#modal-product .quantity [name="quantity"]').attr('data-price-2-4');
+    var price10_19 = $('#modal-product .quantity [name="quantity"]').attr('data-price-2-4');
+    var price20_49 = $('#modal-product .quantity [name="quantity"]').attr('data-price-2-4');
+    var price50 = $('#modal-product .quantity [name="quantity"]').attr('data-price-2-4');
+
+    var price = quantity*price;
+    var discount_price = price;
+
+    if(quantity >= 2 && quantity <= 4)
+    {
+        discount_price = quantity*35;
+    }
+    else if(quantity >= 5 && quantity <= 9)
+    {
+        discount_price = quantity*32;
+    }
+    else if(quantity >= 10 && quantity <= 19)
+    {
+        discount_price = quantity*29;
+    }
+    else if(quantity >= 20 && quantity <= 49)
+    {
+        discount_price = quantity*26;
+    }
+    else if(quantity >= 50)
+    {
+        discount_price = quantity*23;
+    }
+
+    document.order_surface.quantity.value = quantity;
+
+    if(quantity == 1)
+    {
+        $('#modal-product .price .value').css('display', 'block');
+        $('#modal-product .price .value-old-price').css('display', 'none');
+        $('#modal-product .price .value-new-price').css('display', 'none');
+
+    }
+    else
+    {
+        $('#modal-product .price .value').css('display', 'none');
+        $('#modal-product .price .value-old-price').css('display', 'block');
+        $('#modal-product .price .value-new-price').css('display', 'block');
+        $.ajax({
+            type: "POST",
+            url: "wp-content/themes/triton-lite/old-price.php",
+            data: "old_price=" + price,
+            success:function(html) {
+                $(".value-old-price").html(html);
+            }
+        });
+        $.ajax({
+            type: "POST",
+            url: "wp-content/themes/triton-lite/discount-price.php",
+            data: "discount_price=" + discount_price,
+            success:function(html) {
+                $(".value-new-price").html(html);
+            }
+        });
+    }
+
+}
 
 function orderQuantityMinus() {
     var initial=document.order_surface.quantity.value;
@@ -147,7 +219,78 @@ function orderQuantityMinus() {
 
     }
 }
+function orderQuantityMinus1() {
+    var initial=document.order_surface.quantity.value;
+    if (initial > 1) {
+        initial--;
+        var quantity = initial;
+        var price = $('#modal-product .quantity [name="quantity"]').attr('data-price');
+        var price2_4 = $('#modal-product .quantity [name="quantity"]').attr('data-price-2-4');
+        var price5_9 = $('#modal-product .quantity [name="quantity"]').attr('data-price-2-4');
+        var price10_19 = $('#modal-product .quantity [name="quantity"]').attr('data-price-2-4');
+        var price20_49 = $('#modal-product .quantity [name="quantity"]').attr('data-price-2-4');
+        var price50 = $('#modal-product .quantity [name="quantity"]').attr('data-price-2-4');
 
+        var price = quantity*price;
+        var discount_price = price;
+
+        if(quantity >= 2 && quantity <= 4)
+        {
+            discount_price = quantity*35;
+        }
+        else if(quantity >= 5 && quantity <= 9)
+        {
+            discount_price = quantity*32;
+        }
+        else if(quantity >= 10 && quantity <= 19)
+        {
+            discount_price = quantity*29;
+        }
+        else if(quantity >= 20 && quantity <= 49)
+        {
+            discount_price = quantity*26;
+        }
+        else if(quantity >= 50)
+        {
+            discount_price = quantity*23;
+        }
+
+        document.order_surface.quantity.value = quantity;
+
+        if(quantity == 1)
+        {
+            $("#modal-product .quantity").css('margin-top', '0px');
+
+            $('#modal-product .price .value').css('display', 'block');
+            $('#modal-product .price .value-old-price').css('display', 'none');
+            $('#modal-product .price .value-new-price').css('display', 'none');
+
+        }
+        else
+        {
+            $('#modal-product .price .value').css('display', 'none');
+            $('#modal-product .price .value-old-price').css('display', 'block');
+            $('#modal-product .price .value-new-price').css('display', 'block');
+            $.ajax({
+                type: "POST",
+                url: "wp-content/themes/triton-lite/old-price.php",
+                data: "old_price=" + price,
+                success:function(html) {
+                    $(".value-old-price").html(html);
+                }
+            });
+            $.ajax({
+                type: "POST",
+                url: "wp-content/themes/triton-lite/discount-price.php",
+                data: "discount_price=" + discount_price,
+                success:function(html) {
+                    $(".value-new-price").html(html);
+                }
+            });
+        }
+
+    }
+}
 $(document).ready(function(){
 
     $(".main-slider #bx-pager > div:first-child").addClass("active");
@@ -214,7 +357,6 @@ $(document).ready(function(){
 
         $('#modal-quick-order form[name="order_surface"] .selectpicker option').removeAttr('selected');
         $('#modal-quick-order form[name="order_surface"] .selectpicker option:nth-child('+rel+')').attr('selected', 'selected');
-
         $('#modal-quick-order .cwrapper.pic img, #modal-quick-order .cwrapper.content h1, #modal-quick-order .cwrapper.content h3, #modal-quick-order .border .btn-group.bootstrap-select button, #modal-quick-order .border .price .wrp').css('display', 'none');
         $('#modal-quick-order .cwrapper.pic img:nth-child('+rel+')').css('display', 'inline');
         $('#modal-quick-order .cwrapper.content h1:nth-child('+relm+')').css('display', 'block');

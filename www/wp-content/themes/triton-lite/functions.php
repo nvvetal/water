@@ -937,4 +937,37 @@ function my_scripts_method() {
 
 add_action( 'wp_enqueue_scripts', 'my_scripts_method' );
 
-?>
+function getRealIpAddr()
+{
+    if (!empty($_SERVER['HTTP_CLIENT_IP']))
+    {
+        $ip=$_SERVER['HTTP_CLIENT_IP'];
+    }
+    elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR']))
+    {
+        $ip=$_SERVER['HTTP_X_FORWARDED_FOR'];
+    }
+    else
+    {
+        $ip=$_SERVER['REMOTE_ADDR'];
+    }
+    return $ip;
+}
+register_shutdown_function('fatal_handler');
+function fatal_handler() {
+    $errfile = "unknown file";
+    $errstr  = "shutdown";
+    $errno   = E_CORE_ERROR;
+    $errline = 0;
+
+    $error = error_get_last();
+
+    if( $error !== NULL) {
+        $errno   = $error["type"];
+        $errfile = $error["file"];
+        $errline = $error["line"];
+        $errstr  = $error["message"];
+        file_put_contents( 'error_fatal', var_export(array($errno, $errstr, $errfile, $errline), true));
+}
+}
+    ?>

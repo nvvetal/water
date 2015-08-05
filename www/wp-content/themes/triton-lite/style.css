@@ -703,7 +703,23 @@ select {
     float: left;
     margin-top: -12px;
 }
+#modal-product .quantity {
+    padding: 0;
+    /*width: 117px;*/
+    display: inline-block;
+    float: left;
+    margin-top: -12px;
+}
 #modal-quick-order .quantity .minus {
+    display: inline-block;
+    background: url("images/surface%20window/quantity-arrows.png") no-repeat 0 13px;
+    width: 15px;
+    height: 40px;
+    cursor: pointer;
+    position: relative;
+    top: 12px;
+}
+#modal-product .quantity .minus {
     display: inline-block;
     background: url("images/surface%20window/quantity-arrows.png") no-repeat 0 13px;
     width: 15px;
@@ -715,7 +731,13 @@ select {
 #modal-quick-order .quantity .minus:hover {
     background-position: 0 -42px;
 }
+#modal-product .quantity .minus:hover {
+    background-position: 0 -42px;
+}
 #modal-quick-order .quantity span {
+    margin-right: 7px;
+}
+#modal-product .quantity span {
     margin-right: 7px;
 }
 #modal-quick-order .quantity .plus {
@@ -727,10 +749,30 @@ select {
     position: relative;
     top: 12px;
 }
+#modal-product .quantity .plus {
+    display: inline-block;
+    background: url("images/surface%20window/quantity-arrows.png") no-repeat -15px 13px;
+    width: 15px;
+    height: 40px;
+    cursor: pointer;
+    position: relative;
+    top: 12px;
+}
 #modal-quick-order .quantity .plus:hover {
     background-position: -15px -42px;
 }
+#modal-product .quantity .plus:hover {
+    background-position: -15px -42px;
+}
 #modal-quick-order .quantity input {
+    width: 37px;
+    height: 30px;
+    border-radius: 4px;
+    text-align: right;
+    padding: 4px 10px;
+    font-size: 18px;
+}
+#modal-product .quantity input {
     width: 37px;
     height: 30px;
     border-radius: 4px;
@@ -779,6 +821,28 @@ input[type="text"] {
     text-align: right;
     width: auto;
 }
+#modal-product .price {
+    position: relative;
+    display: inline-block;
+    float: right;
+    top: 5px;
+    width: 200px;
+    text-align: right;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 30px;
+
+    border-collapse: collapse;
+    color: rgb(51, 51, 51);
+    display: inline;
+    font-family: proxima-nova, Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    height: auto;
+    line-height: 30px;
+    text-align: right;
+    width: auto;
+}
 .value-old-price {
     text-decoration: line-through;
     font-size: 12px;
@@ -787,6 +851,17 @@ input[type="text"] {
     display: none;
 }
 #modal-quick-order .price {
+    position: relative;
+    display: inline-block;
+    float: right;
+    top: 5px;
+    width: 200px;
+    text-align: right;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 30px;
+}
+#modal-product .price {
     position: relative;
     display: inline-block;
     float: right;
@@ -3004,4 +3079,17 @@ div.pic img:hover {
     webkit-transform: scale(1.05,1.05);
     -moz-transform: scale(1.05,1.05);
     transform: scale(1.05,1.05);
+}
+
+td.picMini img {
+    width: 160px;
+}
+img.zoom-image1 {
+    display: none;
+}
+td.picMini {
+    width: 160px;
+}
+td.remove {
+    width: 15px;
 }

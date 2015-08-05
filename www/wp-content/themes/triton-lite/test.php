@@ -8,7 +8,6 @@ echo '<div class="modal hide in" id="modal-product" style="top: 73.5px; display:
 
 
             $post = get_post($id);
-
             $price = get_field('цена', $post);
             $name = get_field('название_товара', $post);
             $description_title = get_field('описание(заглавие)', $post);

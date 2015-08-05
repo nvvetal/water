@@ -199,12 +199,14 @@
         });
 
     })(jQuery);
+
 </script>
 
 </head>
 
 
 <body <?php body_class(); ?>>
+
 <div id="callback_wrap" style="display:none; position: fixed; width: 100%; height: 100%; z-index: 9000;">
 </div>
 <script src="<?php bloginfo('template_directory'); ?>/bootstrap/js/bootstrap.min.js"></script>
@@ -215,7 +217,8 @@
   <?php if (!session_id())session_start(); ?>
 
 <!--TOPMENU-->
-
+    <?php
+   ?>
     <?php $query = new WP_Query(array('options_category' => 'Static Header', 'posts_per_page' => 1));
 
     if( $query->have_posts() ) {
@@ -544,5 +547,15 @@ if( $query->have_posts() ){
         unset($quantity);
         unset($prone_qo);
     }
+
+    $ip=getRealIpAddr();
+      if (!isset($_COOKIE['id'])){
+          $table='wp_user_list';
+         $wpdb->insert( $table, array("user_name" =>$ip), array("%s"));
+         $idi = $wpdb->insert_id;
+          setcookie("id", $idi, time()+3600*24*30);
+      }
+//var_dump($_COOKIE["id"]);
+
 
 ?>
